@@ -94,7 +94,7 @@ if [ "$(which terraform)" = "" ]; then
 fi
 
 echo 'Setup python'
-PYTHON_VERSION=3.9.0
+PYTHON_VERSION=3.7.9
 if [ "$(which pyenv)" = "" ]; then
     anyenv install -s pyenv
     source ~/.zshrc
