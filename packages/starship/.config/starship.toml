@@ -1,3 +1,5 @@
 [character]
-success_symbol = "[➜](bold green)"
+success_symbol = "🦄 "
 
+[git_branch]
+symbol = "🌱 "
