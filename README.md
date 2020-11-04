@@ -2,6 +2,6 @@
 
 ## install
 ```
-curl https://raw.githubusercontent.com/nekoshita/dotfiles/main/install | sh
+curl https://raw.githubusercontent.com/nekoshita/dotfiles/main/packages/scripts/syncdots  | sh
+exec $SHELL -l
 ```
-

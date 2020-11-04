@@ -1,0 +1,106 @@
+#!/bin/sh
+
+set -e
+
+GIT_CLONE_PATH=~/projects/github.com/nekoshita
+STOW_PACKAGES_PATH="$GIT_CLONE_PATH"/dotfiles/packages
+
+echo 'Change default shell to zsh'
+if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then 
+    chsh -s /bin/zsh
+    chmod -R 755 /usr/local/share/zsh
+    chown -R root:staff zsh
+fi 
+
+
+echo 'Setup Homebrew'
+if [ ! -f /usr/local/bin/brew ]; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+fi
+
+
+echo 'Clone dotfiles'
+if [ ! -d "$GIT_CLONE_PATH" ]; then
+    mkdir -p "$GIT_CLONE_PATH"
+fi
+
+if [ ! -d "$GIT_CLONE_PATH"/dotfiles ]; then
+    cd "$GIT_CLONE_PATH"
+    git clone https://github.com/nekoshita/dotfiles
+fi
+
+
+echo 'Setup apps and CLIs'
+brew bundle -v --file "$GIT_CLONE_PATH"/dotfiles/Brewfile
+
+
+echo 'Setup config files'
+if [ ! -d ~/.config ]; then
+	mkdir ~/.config
+fi
+
+if [ ! -d ~/.config/starship ]; then
+    mkdir ~/.config/starship
+fi
+
+
+stow -v -d "$STOW_PACKAGES_PATH" -t ~ $(ls -m "$STOW_PACKAGES_PATH" | tr ',' ' ')
+
+echo 'Setup go'
+GO_VERSION=1.15.3
+if [ "$(which goenv)" = "" ]; then
+    anyenv install goenv
+    source ~/.zshrc
+fi
+if [ "$(which go)" = "" ]; then
+    goenv install "$GO_VERSION"
+    goenv global "$GO_VERSION"
+    goenv rehash
+fi
+
+echo 'Setup ruby'
+RUBY_VERSION=2.7.2
+if [ "$(which rbenv)" = "" ]; then
+    anyenv install rbenv
+    source ~/.zshrc
+fi
+if [ "$(which ruby)" = "" ]; then
+    rbenv install -s "$RUBY_VERSION"
+    rbenv global "$RUBY_VERSION"
+    rbenv rehash
+    ~/.rbenv/shims/gem install bundler
+fi
+
+echo 'Setup node'
+NODE_VERSION=12.18.3
+if [ "$(which nodenv)" = "" ]; then
+    anyenv install nodenv
+    source ~/.zshrc
+fi
+if [ "$(which node)" = "" ]; then
+    nodenv install -s "$GO_VERSION"
+    nodenv global "$GO_VERSION"
+    nodenv rehash
+fi
+
+echo 'Setup terraform'
+TERRAFORM_VERSION=0.11.3
+if [ "$(which tfenv)" = "" ]; then
+    anyenv install tfenv
+    source ~/.zshrc
+fi
+if [ "$(which terraform)" = "" ]; then
+    tfenv install "$TERRAFORM_VERSION"
+fi
+
+echo 'Setup python'
+PYTHON_VERSION=3.9.0
+if [ "$(which pyenv)" = "" ]; then
+    anyenv install -s pyenv
+    source ~/.zshrc
+fi
+if [ "$(which python)" = "" ]; then
+    pyenv install -s "$PYTHON_VERSION"
+    pyenv global "$PYTHON_VERSION"
+    pyenv rehash
+fi
