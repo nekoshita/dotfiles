@@ -3,7 +3,7 @@
 set -e
 
 GIT_CLONE_PATH=~/projects/github.com/nekoshita
-STOW_PACKAGES=$GIT_CLONE_PATH/dotfiles/packages
+STOW_PACKAGES_PATH="$GIT_CLONE_PATH"/dotfiles/packages
 
 echo 'Change default shell to zsh'
 if [ "$(dscl . -read ~/ UserShell)" = "UserShell: /bin/bash" ]; then 
