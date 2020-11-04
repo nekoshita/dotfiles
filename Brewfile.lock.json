@@ -1,0 +1,64 @@
+{
+  "entries": {
+    "brew": {
+      "stow": {
+        "version": "2.3.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/stow-2.3.1.catalina.bottle.tar.gz",
+              "sha256": "c99a90dc5e3db8ebcb017df044723fb4e6cce7fb94aa24cf46c8d2c0665bf9a0"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/stow-2.3.1.mojave.bottle.tar.gz",
+              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/stow-2.3.1.high_sierra.bottle.tar.gz",
+              "sha256": "409987564f7779d6a1db75f64e54c4713ecd9b9e006abac931f8e8d645bdac92"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/stow-2.3.1.sierra.bottle.tar.gz",
+              "sha256": "cbc7a61940a343aff46fdb6190dc26a359d26c9c468c05b1dbde2484a066ceb6"
+            }
+          }
+        }
+      },
+      "starship": {
+        "version": "0.46.2_1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/starship-0.46.2_1.catalina.bottle.tar.gz",
+              "sha256": "5317a3f97ca314ac35ba276dbc5491722514d54e92bed181c8d4899a490a46b8"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/starship-0.46.2_1.mojave.bottle.tar.gz",
+              "sha256": "974a35cbc1e52f97b75c873e3e08be6411759bbe6e2ed80e1e7b2c01be8d9857"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/starship-0.46.2_1.high_sierra.bottle.tar.gz",
+              "sha256": "ebdba4a9896bffcb6428b28edab648a9fd743d9dd002f7e8a488a68d3fd6e9dd"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.5.8",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "1cc3d9e170b0b610412641b4a3a23bb7df6819ee",
+        "CLT": "12.1.0.0.1.1602137645",
+        "Xcode": "12.0",
+        "macOS": "10.15.6"
+      }
+    }
+  }
+}

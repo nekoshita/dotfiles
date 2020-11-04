@@ -1,0 +1,3 @@
+brew "stow"
+brew "starship"
+
