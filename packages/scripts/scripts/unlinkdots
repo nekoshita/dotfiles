@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Unlinking dots..."
+stow -vD -d $HOME/projects/github.com/nekoshita/dotfiles/packages -t ~ "$1"
+unalias -a

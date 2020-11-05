@@ -232,7 +232,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f8c50a382156306b36d413eb5f8f98d464ebc9e9",
+        "Homebrew/homebrew-core": "ca239868d1fc9adc9aad4f478c4e14d6f59a67c2",
         "CLT": "12.1.0.0.1.1602137645",
         "Xcode": "12.0",
         "macOS": "10.15.6"
