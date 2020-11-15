@@ -4,6 +4,8 @@ brew "yq"
 brew "jq"
 brew "docker"
 brew "anyenv"
+brew "yarn"
+brew "watch"
 
 cask "google-chrome"
 cask "slack"
