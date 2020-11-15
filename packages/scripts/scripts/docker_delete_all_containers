@@ -1,0 +1,9 @@
+#!/bin/sh 
+
+read -p "delete all docker containers? (y/N): " yn
+case "$yn" in
+  [yY]*)
+    docker container rm -f `docker container ls -a -q`;;
+  *)
+    echo "abort";;
+esac
