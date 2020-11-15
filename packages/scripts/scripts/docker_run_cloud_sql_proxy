@@ -1,0 +1,7 @@
+#!/bin/sh 
+
+set -eu
+
+port=$1
+
+docker container run --rm -it -e HOME=$HOME -v $HOME:$HOME -p ${port}:3306 gcr.io/cloudsql-docker/gce-proxy:1.13 bin/sh
