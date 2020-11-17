@@ -1,4 +1,5 @@
 export PATH=$PATH:$HOME/scripts
+export PATH=$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 export GIT_CLONE_PATH=$HOME/projects/github.com/nekoshita
 
 alias ll="ls -lah"
@@ -27,3 +28,4 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 eval "$(anyenv init -)"
+

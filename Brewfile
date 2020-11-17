@@ -6,6 +6,7 @@ brew "docker"
 brew "anyenv"
 brew "yarn"
 brew "watch"
+brew "mas"
 
 cask "google-chrome"
 cask "slack"
@@ -16,3 +17,6 @@ cask "clipy"
 cask "docker"
 cask "appcleaner"
 cask "google-cloud-sdk"
+cask "android-studio"
+
+mas "Xcode", id: 497799835
