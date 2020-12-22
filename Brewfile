@@ -7,6 +7,7 @@ brew "anyenv"
 brew "yarn"
 brew "watch"
 brew "mas"
+brew "mysql"
 
 cask "google-chrome"
 cask "slack"
