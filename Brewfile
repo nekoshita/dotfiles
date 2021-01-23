@@ -19,5 +19,6 @@ cask "docker"
 cask "appcleaner"
 cask "google-cloud-sdk"
 cask "android-studio"
+cask "java6"
 
 mas "Xcode", id: 497799835
