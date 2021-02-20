@@ -78,8 +78,8 @@ if [ "$(which nodenv)" = "" ]; then
     source ~/.zshrc
 fi
 if [ "$(which node)" = "" ]; then
-    nodenv install -s "$GO_VERSION"
-    nodenv global "$GO_VERSION"
+    nodenv install -s "$NODE_VERSION"
+    nodenv global "$NODE_VERSION"
     nodenv rehash
 fi
 
