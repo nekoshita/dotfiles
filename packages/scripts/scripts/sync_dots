@@ -42,7 +42,7 @@ fi
 stow -v -d "$STOW_PACKAGES_PATH" -t ~ $(ls -m "$STOW_PACKAGES_PATH" | tr ',' ' ')
 
 echo 'Setup go'
-GO_VERSION=1.15.3
+GO_VERSION=1.16.2
 if [ "$(which goenv)" = "" ]; then
     anyenv install goenv
     source ~/.zshrc
@@ -54,7 +54,7 @@ if [ "$(which go)" = "" ]; then
 fi
 
 echo 'Setup ruby'
-RUBY_VERSION=2.7.2
+RUBY_VERSION=3.0.0
 if [ "$(which rbenv)" = "" ]; then
     anyenv install rbenv
     source ~/.zshrc
@@ -67,7 +67,7 @@ if [ "$(which ruby)" = "" ]; then
 fi
 
 echo 'Setup node'
-NODE_VERSION=12.18.3
+NODE_VERSION=15.8.0
 if [ "$(which nodenv)" = "" ]; then
     anyenv install nodenv
     source ~/.zshrc
@@ -79,7 +79,7 @@ if [ "$(which node)" = "" ]; then
 fi
 
 echo 'Setup terraform'
-TERRAFORM_VERSION=0.11.3
+TERRAFORM_VERSION=0.14.8
 if [ "$(which tfenv)" = "" ]; then
     anyenv install tfenv
     source ~/.zshrc
