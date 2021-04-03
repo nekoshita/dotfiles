@@ -43,7 +43,7 @@ stow -v -d "$STOW_PACKAGES_PATH" -t ~ $(ls -m "$STOW_PACKAGES_PATH" | tr ',' ' '
 
 echo 'Setup anyenv'
 if [ ! -d ~/.config/anyenv/anyenv-install ]; then
-    anyenv install --init
+    anyenv install --force-init
 fi
 
 echo 'Setup go'
