@@ -1,4 +1,6 @@
+# scripts
 export PATH=$PATH:$HOME/scripts
+# vscode
 export PATH=$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 export GIT_CLONE_PATH=$HOME/projects/github.com/nekoshita
 
