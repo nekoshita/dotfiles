@@ -365,6 +365,12 @@
         "options": {
           "full_name": "java6"
         }
+      },
+      "adoptopenjdk": {
+        "version": "16,36",
+        "options": {
+          "full_name": "adoptopenjdk"
+        }
       }
     },
     "mas": {
@@ -379,7 +385,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.0.10",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c78c3be94ca825485bd27523975882adec5f1de1",
+        "Homebrew/homebrew-core": "7df4f5654885a0ee545266a28911e515ba0f76fc",
         "CLT": "12.1.0.0.1.1602137645",
         "Xcode": "12.4",
         "macOS": "10.15.6"
