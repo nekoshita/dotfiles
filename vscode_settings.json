@@ -1,0 +1,31 @@
+{
+  // Editor
+  "diffEditor.codeLens": true,
+
+  // ウィンドウ設定
+  "window.zoomLevel": -1, // 拡大率
+
+  // ファイル設定
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+
+  // ワークベンチ設定
+  "workbench.colorTheme": "Default Light+",
+  "workbench.editor.tabSizing": "shrink",
+
+  // マークダウン
+  "markdown.preview.breaks": true,
+
+  // go
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,  
+  "go.buildTags": "test",
+  "go.lintTool": "golangci-lint",
+}

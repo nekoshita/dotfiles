@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+
+VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
+
+rm "$VSCODE_SETTING_DIR/settings.json"
+ln -s "$GIT_CLONE_PATH/dotfiles/vscode_settings.json" "${VSCODE_SETTING_DIR}/settings.json"

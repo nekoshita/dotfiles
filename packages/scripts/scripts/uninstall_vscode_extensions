@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+
+code --list-extensions | while read line
+do
+ code --uninstall-extension $line
+done

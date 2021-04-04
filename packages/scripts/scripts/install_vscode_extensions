@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+
+cat $GIT_CLONE_PATH/dotfiles/vscode_extensions | while read line
+do
+ code --install-extension $line
+done
