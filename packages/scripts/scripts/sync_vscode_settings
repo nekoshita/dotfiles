@@ -6,4 +6,5 @@ set -e
 VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
 
 rm -f "$VSCODE_SETTING_DIR/settings.json"
+mkdir -p $VSCODE_SETTING_DIR
 ln -s "$GIT_CLONE_PATH/dotfiles/vscode_settings.json" "${VSCODE_SETTING_DIR}/settings.json"
