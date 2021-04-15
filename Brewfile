@@ -8,6 +8,7 @@ brew "yarn"
 brew "watch"
 brew "mas"
 brew "mysql"
+brew "kustomize"
 
 cask "google-chrome"
 cask "slack"
@@ -22,3 +23,4 @@ cask "android-studio"
 cask "adoptopenjdk"
 
 mas "Xcode", id: 497799835
+mas "line", id: 539883307
