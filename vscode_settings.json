@@ -5,6 +5,9 @@
   // ウィンドウ設定
   "window.zoomLevel": -1, // 拡大率
 
+  // ターミナル
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
   // ファイル設定
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -28,4 +31,7 @@
   "go.useLanguageServer": true,  
   "go.buildTags": "test",
   "go.lintTool": "golangci-lint",
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": true
+  },
 }
