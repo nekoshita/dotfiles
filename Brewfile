@@ -22,6 +22,9 @@ cask "google-cloud-sdk"
 cask "android-studio"
 cask "adoptopenjdk"
 cask "unity-hub"
+cask "blender"
+cask "autodesk-fusion360"
+cask "appcleaner"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
