@@ -1,5 +1,8 @@
 {
   // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "diffEditor.codeLens": true,
 
   // ウィンドウ設定
