@@ -9,6 +9,8 @@ brew "watch"
 brew "mas"
 brew "mysql"
 brew "kustomize"
+brew "grpcurl"
+brew "protobuf"
 
 cask "google-chrome"
 cask "slack"
