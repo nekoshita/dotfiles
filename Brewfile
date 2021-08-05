@@ -27,6 +27,7 @@ cask "unity-hub"
 cask "blender"
 cask "autodesk-fusion360"
 cask "appcleaner"
+cask "pgadmin4"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
