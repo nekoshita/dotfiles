@@ -11,6 +11,7 @@ brew "mysql"
 brew "kustomize"
 brew "grpcurl"
 brew "protobuf"
+brew "awscli"
 
 cask "google-chrome"
 cask "slack"
