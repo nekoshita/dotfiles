@@ -37,4 +37,10 @@
   "go.languageServerExperimentalFeatures": {
     "diagnostics": true
   },
+  
+  // terraform
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true
+  }
 }
