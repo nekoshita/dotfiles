@@ -29,7 +29,6 @@ cask "blender"
 cask "autodesk-fusion360"
 cask "appcleaner"
 cask "pgadmin4"
-cask "charles"
 cask "zoom"
 cask "kindle"
 
