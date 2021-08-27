@@ -31,6 +31,7 @@ cask "appcleaner"
 cask "pgadmin4"
 cask "charles"
 cask "zoom"
+cask "kindle"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
