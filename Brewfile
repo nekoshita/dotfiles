@@ -32,6 +32,7 @@ cask "pgadmin4"
 cask "zoom"
 cask "kindle"
 cask "steam"
+cask "background-music"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
