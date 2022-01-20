@@ -29,7 +29,17 @@ alias g="gcloud"
 
 eval "$(starship init zsh)"
 
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# path
+UNAME_MACHINE="$(/usr/bin/uname -m)"
+if [[ "${UNAME_MACHINE}" == "arm64" ]]; then
+    # On ARM macOS
+    HOMEBREW_PREFIX="/opt/homebrew"
+else
+    # On Intel macOS
+    HOMEBREW_PREFIX="/usr/local"
+fi
 
+eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
+source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 eval "$(anyenv init -)"
