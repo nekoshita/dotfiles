@@ -35,7 +35,7 @@
   "go.languageServerExperimentalFeatures": {
     "diagnostics": true
   },
-  "go.testTimeout": "30s",
+  "go.testTimeout": "300s",
   "go.testEnvFile": "${workspaceFolder}/.env"
   
   // terraform
