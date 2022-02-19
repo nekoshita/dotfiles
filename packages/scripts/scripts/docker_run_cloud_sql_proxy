@@ -2,6 +2,14 @@
 
 set -eu
 
-port=$1
+host_port=$1
+db_port=$2
+instance_connection_name=$3
 
-docker container run --rm -it -e HOME=$HOME -v $HOME:$HOME -p ${port}:3306 gcr.io/cloudsql-docker/gce-proxy:1.13 bin/sh
+
+docker container run --rm  \
+    -p $host_port:$db_port \
+    -v $HOME/.config/gcloud:$HOME/.config/gcloud \
+    -e HOME=$HOME \
+    gcr.io/cloudsql-docker/gce-proxy:1.28.1 \
+    /cloud_sql_proxy -instances=$instance_connection_name=tcp:0.0.0.0:$db_port
