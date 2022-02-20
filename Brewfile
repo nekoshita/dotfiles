@@ -35,6 +35,7 @@ cask "kindle"
 cask "steam"
 cask "background-music"
 cask "1password"
+cask "obsidian"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
