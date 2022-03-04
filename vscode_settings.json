@@ -43,4 +43,9 @@
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true
   },
+
+  // vscode spell checker
+  "cSpell.ignoreWords": [
+    "gorm"
+  ],
 }
