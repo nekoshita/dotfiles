@@ -36,7 +36,7 @@
     "diagnostics": true
   },
   "go.testTimeout": "300s",
-  "go.testEnvFile": "${workspaceFolder}/.env"
+  "go.testEnvFile": "${workspaceFolder}/.env",
   
   // terraform
   "[terraform]": {
