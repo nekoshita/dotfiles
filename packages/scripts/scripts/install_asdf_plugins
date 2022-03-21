@@ -1,4 +1,4 @@
-#!/bin/zsh 
+#!/bin/sh
 
 set -e
 
@@ -25,6 +25,12 @@ is_runtime_versions_changed () {
 
     [ "$is_changed" ]
 }
+
+for plugin in $(awk '{print $1}' ~/.tool-versions); do
+    if ! is_dir ~/.asdf/plugins/"$plugin"; then
+        asdf plugin add "$plugin"
+    fi
+done
 
 for plugin in $(asdf plugin list); do
     if is_runtime_versions_changed "$plugin"; then
