@@ -1,0 +1,5 @@
+#!/bin/sh 
+
+set -e
+
+ln -s /Volumes/y-HDD/Backup "$HOME/Library/Application Support/MobileSync"
