@@ -52,6 +52,5 @@ fi
 stow -v -d "$STOW_PACKAGES_PATH" -t ~ $(ls -m "$STOW_PACKAGES_PATH" | tr ',' ' ')
 
 install_languages
-install_npm_packages
 sync_vscode_settings
 install_vscode_extensions

@@ -36,11 +36,16 @@
     "diagnostics": true
   },
   "go.testTimeout": "300s",
-  "go.testEnvFile": "${workspaceFolder}/.env"
+  "go.testEnvFile": "${workspaceFolder}/.env",
   
   // terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true
   },
+
+  // vscode spell checker
+  "cSpell.ignoreWords": [
+    "gorm"
+  ],
 }
