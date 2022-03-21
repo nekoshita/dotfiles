@@ -42,4 +42,4 @@ fi
 eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-eval "$(anyenv init -)"
+source $(brew --prefix asdf)/asdf.sh

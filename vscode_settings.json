@@ -46,6 +46,7 @@
 
   // vscode spell checker
   "cSpell.ignoreWords": [
+    "gomock",
     "gorm"
   ],
 }

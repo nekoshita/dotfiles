@@ -1,0 +1,34 @@
+#!/bin/zsh 
+
+set -e
+
+log() {
+    message=$1
+    echo 📌 "$message"
+}
+
+is_dir() {
+    path="$1"
+    [ -d "$path" ]
+}
+
+is_runtime_versions_changed () {
+    plugin="$1"
+    specified=$(grep "$plugin" ~/.tool-versions | awk '{$1=""; print $0}')
+    installed=$(asdf list "$plugin" 2>&1)
+
+    is_changed=
+    for version in $specified; do
+        match=$(echo "$installed" | grep "$version")
+        [ -z "$match" ] && is_changed=1
+    done
+
+    [ "$is_changed" ]
+}
+
+for plugin in $(asdf plugin list); do
+    if is_runtime_versions_changed "$plugin"; then
+        log "Install runtime: $plugin"
+        asdf install "$plugin"
+    fi
+done
