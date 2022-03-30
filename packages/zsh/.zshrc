@@ -27,8 +27,6 @@ alias k="kubectl"
 # gcloud alias
 alias g="gcloud"
 
-eval "$(starship init zsh)"
-
 # path
 UNAME_MACHINE="$(/usr/bin/uname -m)"
 if [[ "${UNAME_MACHINE}" == "arm64" ]]; then
@@ -42,4 +40,5 @@ fi
 eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+eval "$(starship init zsh)"
 source $(brew --prefix asdf)/asdf.sh
