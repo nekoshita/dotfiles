@@ -12,7 +12,7 @@ alias cdrepo=". change_dir_to_repo"
 
 # docker alias
 alias d="docker"
-alias dc="docker-compose"
+alias dc="docker compose"
 alias dct="docker container"
 alias dctr="docker_delete_all_containers"
 alias di="docker image"
