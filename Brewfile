@@ -12,6 +12,8 @@ brew "grpcurl"
 brew "protobuf"
 brew "awscli"
 brew "asdf"
+brew "koekeishiya/formulae/yabai"
+brew "koekeishiya/formulae/skhd"
 
 cask "google-chrome"
 cask "slack"
