@@ -27,6 +27,12 @@ alias k="kubectl"
 # gcloud alias
 alias g="gcloud"
 
+# yabai alias
+# view the last lines of the error log 
+HOMEBREW_PREFIX=/opt/homebrew
+alias yabai_log="tail -f $HOMEBREW_PREFIX/var/log/yabai/yabai.out.log"
+alias yabai_err_log="tail -f $HOMEBREW_PREFIX/var/log/yabai/yabai.err.log"
+
 # path
 UNAME_MACHINE="$(/usr/bin/uname -m)"
 if [[ "${UNAME_MACHINE}" == "arm64" ]]; then
