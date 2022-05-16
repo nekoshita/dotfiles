@@ -14,6 +14,7 @@ brew "awscli"
 brew "asdf"
 brew "koekeishiya/formulae/yabai"
 brew "koekeishiya/formulae/skhd"
+brew "tig"
 
 cask "google-chrome"
 cask "slack"
