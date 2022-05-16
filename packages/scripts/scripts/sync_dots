@@ -14,14 +14,7 @@ fi
 
 
 echo 'Setup Homebrew'
-UNAME_MACHINE="$(/usr/bin/uname -m)"
-if [[ "${UNAME_MACHINE}" == "arm64" ]]; then
-    # On ARM macOS
-    HOMEBREW_PATH="/opt/homebrew/bin/brew"
-else
-    # On Intel macOS
-    HOMEBREW_PATH="/usr/local/bin/brew"
-fi
+HOMEBREW_PATH="/opt/homebrew/bin/brew"
 
 if [ ! -f $HOMEBREW_PATH ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
