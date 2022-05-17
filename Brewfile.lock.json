@@ -742,7 +742,7 @@
         }
       },
       "sourcetree": {
-        "version": "4.1.6,242",
+        "version": "4.1.8,244",
         "options": {
           "full_name": "sourcetree"
         }
@@ -866,6 +866,12 @@
         "options": {
           "full_name": "gpg-suite"
         }
+      },
+      "gitup": {
+        "version": "1.3.1",
+        "options": {
+          "full_name": "gitup"
+        }
       }
     },
     "mas": {
@@ -897,7 +903,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.11",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "6685b8c19702d32c5afa90f15972ebd363777adf",
+        "Homebrew/homebrew-core": "333b197057a50fd49be4c6ca87a783b7b0c7d176",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.3.1",
         "macOS": "12.0.1"
