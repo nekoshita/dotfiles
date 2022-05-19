@@ -15,6 +15,7 @@ brew "asdf"
 brew "koekeishiya/formulae/yabai"
 brew "koekeishiya/formulae/skhd"
 brew "tig"
+brew "gitup"
 
 cask "google-chrome"
 cask "slack"
