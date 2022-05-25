@@ -39,8 +39,8 @@ shift + cmd - w : yabai -m window --resize top:0:40
 shift + cmd - d : yabai -m window --resize right:-40:0
 
 # move window space
-shift + alt - n : yabai -m window --space prev && yabai -m space --focus next
-shift + alt - m: yabai -m window --space next && yabai -m space --focus prev
+shift + alt - n : yabai -m window --space prev
+shift + alt - m: yabai -m window --space next
 
 # rotate tree
 alt - r : yabai -m space --rotate 90
