@@ -73,19 +73,9 @@ shift + alt - z : yabai -m space --focus prev
 shift + alt - x : yabai -m space --focus recent
 shift + alt - c : yabai -m space --focus next
 alt - v : yabai -m space --create
-alt - b : yabai -m space --delete
+alt - b : yabai -m space --destroy
 alt - n : yabai -m space --focus prev
 alt - m : yabai -m space --focus next
 
 # reset
 shift + alt - r : brew services restart yabai
-
-
-# debug
-alt - 1 : yabai -m display --focus 1
-alt - 2 : yabai -m display --focus 2
-alt - 3 : yabai -m display --focus 3
-# Create space on the active display
-alt - 4 : yabai -m space --create
-# Delete focused space and focus first space on display
-alt - 5 : yabai -m space --destroy
