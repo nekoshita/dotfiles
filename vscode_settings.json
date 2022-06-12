@@ -52,4 +52,8 @@
     "vals"
   ],
   "window.zoomLevel": 1,
+
+  // plantuml
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.server": "http://localhost:16375",
 }
