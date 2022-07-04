@@ -16,6 +16,7 @@ brew "koekeishiya/formulae/yabai"
 brew "koekeishiya/formulae/skhd"
 brew "tig"
 brew "gitup"
+brew "rustup-init"
 
 cask "google-chrome"
 cask "slack"

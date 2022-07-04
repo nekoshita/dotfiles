@@ -3,11 +3,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "editor.formatOnSave": true,
   "diffEditor.codeLens": true, // 拡大率
-
+  // Explorer
+  "explorer.confirmDelete": false,
   // ターミナル
   "terminal.integrated.shell.osx": "/bin/zsh",
-
   // ファイル設定
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -18,32 +19,30 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-
   // ワークベンチ設定
   "workbench.colorTheme": "Default Light+",
   "workbench.editor.tabSizing": "shrink",
-
   // マークダウン
   "markdown.preview.breaks": true,
-
   // go
   "go.toolsManagement.autoUpdate": true,
-  "go.useLanguageServer": true,  
+  "go.useLanguageServer": true,
   "go.buildTags": "test integration_test",
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--build-tags", "test integration_test"],
+  "go.lintFlags": [
+    "--build-tags",
+    "test integration_test"
+  ],
   "go.languageServerExperimentalFeatures": {
     "diagnostics": true
   },
   "go.testTimeout": "300s",
   "go.testEnvFile": "${workspaceFolder}/.env",
-  
   // terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true
   },
-
   // vscode spell checker
   "cSpell.ignoreWords": [
     "gomock",
@@ -51,8 +50,6 @@
     "nekoshita",
     "vals"
   ],
-  "window.zoomLevel": 1,
-
   // plantuml
   "plantuml.render": "PlantUMLServer",
   "plantuml.server": "http://localhost:16375",
