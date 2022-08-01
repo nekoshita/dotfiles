@@ -2,3 +2,4 @@ golang 1.18.1
 nodejs 16.14.0
 yarn 1.22.17
 terraform 1.1.9
+deno 1.17.2
