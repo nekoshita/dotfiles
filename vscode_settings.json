@@ -9,6 +9,7 @@
   "window.zoomLevel": 1,
   // Explorer
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   // ターミナル
   "terminal.integrated.shell.osx": "/bin/zsh",
   // ファイル設定
