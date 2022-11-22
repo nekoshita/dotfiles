@@ -4,9 +4,7 @@
     "source.fixAll": true
   },
   "editor.formatOnSave": true,
-  "diffEditor.codeLens": true, // 拡大率
-  // window
-  "window.zoomLevel": 1,
+  "diffEditor.codeLens": true,
   // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -48,12 +46,16 @@
   },
   // vscode spell checker
   "cSpell.ignoreWords": [
+    "Interactor",
     "gomock",
     "gorm",
     "nekoshita",
+    "usecase",
     "vals"
   ],
   // plantuml
   "plantuml.render": "PlantUMLServer",
   "plantuml.server": "http://localhost:16375",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": 1,
 }

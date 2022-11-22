@@ -42,11 +42,7 @@ cask "background-music"
 cask "1password"
 cask "obsidian"
 cask "gpg-suite"
-cask "gitup"
-# DuetDisplay is installed manually becasue
-# - installation of 2.4.2.1 errors "SHA256 mismatch"
-# - 2.4.2.1 is not working and DuetDisplay official support team send me to use 2.3.3.3
-# cask "duet"
+cask "discord"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
