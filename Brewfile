@@ -19,6 +19,7 @@ brew "gitup"
 brew "rustup-init"
 brew "gh"
 brew "minikube"
+brew "helm"
 
 cask "google-chrome"
 cask "slack"
