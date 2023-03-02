@@ -47,4 +47,4 @@ eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 eval "$(starship init zsh)"
-source $(brew --prefix asdf)/asdf.sh
+source /opt/homebrew/opt/asdf/libexec/asdf.sh

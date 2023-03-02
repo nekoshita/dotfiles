@@ -58,4 +58,7 @@
   "plantuml.server": "http://localhost:16375",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "window.zoomLevel": 1,
+  "[python]": {
+    "editor.formatOnType": true
+  },
 }
