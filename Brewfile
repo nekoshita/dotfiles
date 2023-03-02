@@ -18,6 +18,7 @@ brew "tig"
 brew "gitup"
 brew "rustup-init"
 brew "gh"
+brew "minikube"
 
 cask "google-chrome"
 cask "slack"
