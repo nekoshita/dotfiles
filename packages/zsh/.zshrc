@@ -3,6 +3,8 @@ export PATH=$PATH:$HOME/scripts
 # vscode
 export PATH=$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 export GIT_CLONE_PATH=$HOME/projects/github.com/nekoshita
+# kubectl
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 
 alias ll="ls -lah"
 alias syncdots="sync_dots"
