@@ -26,6 +26,9 @@ alias cloudsqlproxy="docker_run_cloud_sql_proxy"
 # kubectl alias
 alias k="kubectl"
 
+# minukube alias
+alias m="minikube"
+
 # gcloud alias
 alias g="gcloud"
 
@@ -50,3 +53,6 @@ source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/compl
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 eval "$(starship init zsh)"
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# minikube
+eval $(minikube -p minikube docker-env)
