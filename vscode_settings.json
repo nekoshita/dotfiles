@@ -61,4 +61,5 @@
     "editor.formatOnType": true
   },
   "window.zoomLevel": 1,
+  "editor.inlineSuggest.enabled": true,
 }
