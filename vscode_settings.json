@@ -47,6 +47,7 @@
   // vscode spell checker
   "cSpell.ignoreWords": [
     "Interactor",
+    "Redash",
     "gomock",
     "gorm",
     "nekoshita",
