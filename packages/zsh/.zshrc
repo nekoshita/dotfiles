@@ -56,3 +56,7 @@ source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # minikube
 eval $(minikube -p minikube docker-env)
+
+# golang
+GO_VERSION=`go version | sed 's/^.*[^0-9]\([0-9]*\.[0-9]*\.[0-9]*\).*$/\1/'`
+export PATH=$PATH:/Users/yukikato/.asdf/installs/golang/$GO_VERSION/packages/bin
