@@ -1,15 +1,10 @@
 {
   // Editor
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
   "editor.formatOnSave": true,
   "diffEditor.codeLens": true,
   // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  // ターミナル
-  "terminal.integrated.shell.osx": "/bin/zsh",
   // ファイル設定
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -34,16 +29,13 @@
     "--build-tags",
     "test integration_test"
   ],
-  "go.languageServerExperimentalFeatures": {
-    "diagnostics": true
-  },
   "go.testTimeout": "300s",
   "go.testEnvFile": "${workspaceFolder}/.env",
   // terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true
-  },
+  }
   // vscode spell checker
   "cSpell.ignoreWords": [
     "Interactor",
@@ -51,6 +43,7 @@
     "gomock",
     "gorm",
     "nekoshita",
+    "nolint",
     "usecase",
     "vals"
   ],
@@ -61,6 +54,11 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "window.zoomLevel": 1,
   "editor.inlineSuggest.enabled": true,
+  "cSpell.userWords": [
+    "colorsing",
+    "nolint"
+  ],
+  "window.zoomLevel": 1,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }

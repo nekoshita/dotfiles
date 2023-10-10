@@ -32,6 +32,9 @@ alias m="minikube"
 # gcloud alias
 alias g="gcloud"
 
+# terraform alias
+alias tf="terraform"
+
 # yabai alias
 # view the last lines of the error log 
 HOMEBREW_PREFIX=/opt/homebrew
