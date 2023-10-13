@@ -23,6 +23,7 @@ brew "kubeseal"
 brew "stripe/stripe-cli/stripe"
 brew "ffmpeg"
 brew "carlocab/personal/unrar"
+brew "cocoapods"
 
 cask "google-chrome"
 cask "slack"
@@ -49,6 +50,7 @@ cask "obsidian"
 cask "gpg-suite"
 cask "discord"
 cask "dropbox"
+cask "flutter"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
