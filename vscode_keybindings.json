@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+i",
+        "command": "-inlineChat.start",
+        "when": "inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    }
+]

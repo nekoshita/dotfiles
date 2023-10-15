@@ -4,7 +4,10 @@ set -e
 
 
 VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
+cat "${VSCODE_SETTING_DIR}/settings.json"
+cat "${VSCODE_SETTING_DIR}/keybindings.json"
 
 rm -f "$VSCODE_SETTING_DIR/settings.json"
 mkdir -p "$VSCODE_SETTING_DIR"
 ln -s "$GIT_CLONE_PATH/dotfiles/vscode_settings.json" "${VSCODE_SETTING_DIR}/settings.json"
+ln -s "$GIT_CLONE_PATH/dotfiles/vscode_keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
