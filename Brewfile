@@ -51,6 +51,7 @@ cask "gpg-suite"
 cask "discord"
 cask "dropbox"
 cask "flutter"
+cask "obs"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
