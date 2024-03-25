@@ -25,17 +25,14 @@
   "go.useLanguageServer": true,
   "go.buildTags": "test integration_test",
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": [
-    "--build-tags",
-    "test integration_test"
-  ],
+  "go.lintFlags": ["--build-tags", "test integration_test"],
   "go.testTimeout": "300s",
   "go.testEnvFile": "${workspaceFolder}/.env",
   // terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true
-  }
+  },
   // vscode spell checker
   "cSpell.ignoreWords": [
     "Interactor",
@@ -55,10 +52,10 @@
     "editor.formatOnType": true
   },
   "editor.inlineSuggest.enabled": true,
-  "cSpell.userWords": [
-    "colorsing",
-    "nolint"
-  ],
   "window.zoomLevel": 1,
   "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

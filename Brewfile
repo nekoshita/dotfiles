@@ -24,6 +24,9 @@ brew "stripe/stripe-cli/stripe"
 brew "ffmpeg"
 brew "carlocab/personal/unrar"
 brew "cocoapods"
+brew "sqlite"
+brew "grpcui"
+brew "webp"
 
 cask "google-chrome"
 cask "slack"
@@ -52,6 +55,7 @@ cask "discord"
 cask "dropbox"
 cask "flutter"
 cask "obs"
+cask "db-browser-for-sqlite"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
