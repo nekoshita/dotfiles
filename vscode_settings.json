@@ -36,6 +36,7 @@
   // vscode spell checker
   "cSpell.ignoreWords": [
     "Interactor",
+    "Lumineon",
     "Redash",
     "gomock",
     "gorm",
@@ -56,6 +57,12 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "editor.largeFileOptimizations": false,
   "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "makefile.configureOnOpen": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
