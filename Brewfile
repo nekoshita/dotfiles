@@ -28,6 +28,7 @@ brew "sqlite"
 brew "grpcui"
 brew "webp"
 
+cask "audacity"
 cask "mockoon"
 cask "sony-ps-remote-play"
 cask "chatgpt"
