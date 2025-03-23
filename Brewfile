@@ -27,6 +27,7 @@ brew "cocoapods"
 brew "sqlite"
 brew "grpcui"
 brew "webp"
+brew "dotnet@8"
 
 cask "audacity"
 cask "mockoon"

@@ -26,7 +26,7 @@
   "go.buildTags": "test integration_test",
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--build-tags", "test integration_test"],
-  "go.testTimeout": "300s",
+  "go.testTimeout": "30s",
   "go.testEnvFile": "${workspaceFolder}/.env",
   // terraform
   "[terraform]": {
@@ -64,5 +64,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "go.languageServerFlags": []
 }
