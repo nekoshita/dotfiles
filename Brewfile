@@ -49,7 +49,6 @@ cask "blender"
 cask "appcleaner"
 cask "dbeaver-community"
 cask "zoom"
-cask "kindle"
 cask "steam"
 cask "background-music"
 cask "1password"
@@ -63,3 +62,4 @@ cask "db-browser-for-sqlite"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
+mas "kindle", id: 302584613
