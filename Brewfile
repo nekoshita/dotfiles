@@ -59,6 +59,7 @@ cask "dropbox"
 cask "flutter"
 cask "obs"
 cask "db-browser-for-sqlite"
+cask "canva"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
