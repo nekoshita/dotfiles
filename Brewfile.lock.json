@@ -1334,12 +1334,6 @@
           "full_name": "sourcetree"
         }
       },
-      "sequel-pro": {
-        "version": "1.1.2",
-        "options": {
-          "full_name": "sequel-pro"
-        }
-      },
       "clipy": {
         "version": "1.2.1",
         "options": {
