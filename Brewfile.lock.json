@@ -1424,12 +1424,6 @@
           "full_name": "steam"
         }
       },
-      "background-music": {
-        "version": "0.4.3",
-        "options": {
-          "full_name": "background-music"
-        }
-      },
       "1password": {
         "version": "8.10.40",
         "options": {
