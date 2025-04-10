@@ -1364,12 +1364,6 @@
           "full_name": "android-studio"
         }
       },
-      "adoptopenjdk": {
-        "version": "16.0.1,9",
-        "options": {
-          "full_name": "adoptopenjdk"
-        }
-      },
       "blender": {
         "version": "4.2.1",
         "options": {
