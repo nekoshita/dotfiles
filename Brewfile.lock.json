@@ -1376,12 +1376,6 @@
           "full_name": "adoptopenjdk"
         }
       },
-      "unity-hub": {
-        "version": "3.8.0",
-        "options": {
-          "full_name": "unity-hub"
-        }
-      },
       "blender": {
         "version": "4.2.1",
         "options": {
