@@ -55,3 +55,4 @@ cask "canva"
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
 mas "kindle", id: 302584613
+mas "Final Cut Pro", id: 424389933
