@@ -65,5 +65,7 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.languageServerFlags": []
+  "go.languageServerFlags": [],
+  "hediet.vscode-drawio.resizeImages": null,
+  "security.workspace.trust.untrustedFiles": "open"
 }
