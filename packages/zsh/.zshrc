@@ -23,6 +23,9 @@ alias dv="docker volume"
 alias dvr="docker_delete_all_volumes"
 alias cloudsqlproxy="docker_run_cloud_sql_proxy"
 
+# calude code
+alias c="claude"
+
 # kubectl alias
 alias k="kubectl"
 

@@ -16,7 +16,7 @@
     "**/.DS_Store": true
   },
   // ワークベンチ設定
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Visual Studio Light",
   "workbench.editor.tabSizing": "shrink",
   // マークダウン
   "markdown.preview.breaks": true,
@@ -67,5 +67,7 @@
   },
   "go.languageServerFlags": [],
   "hediet.vscode-drawio.resizeImages": null,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }

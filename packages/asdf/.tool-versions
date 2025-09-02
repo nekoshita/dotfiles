@@ -3,4 +3,4 @@ nodejs 16.14.0
 yarn 1.22.17
 terraform 1.1.9
 deno 1.17.2
-golangci-lint 1.56.1
+golangci-lint 2.1.6
