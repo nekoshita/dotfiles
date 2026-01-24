@@ -16,18 +16,17 @@
     "**/.DS_Store": true
   },
   // ワークベンチ設定
-  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.colorTheme": "Default Light+",
   "workbench.editor.tabSizing": "shrink",
   // マークダウン
   "markdown.preview.breaks": true,
   // go
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
-  "go.buildTags": "test integration_test",
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--build-tags", "test integration_test"],
   "go.testTimeout": "30s",
   "go.testEnvFile": "${workspaceFolder}/.env",
+  "go.testFlags": ["-race"],
   // terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
