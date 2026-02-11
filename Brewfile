@@ -26,7 +26,6 @@ brew "grpcui"
 brew "webp"
 brew "dotnet@8"
 brew "opencv"
-brew "google-cloud-sdk"
 brew "wails"
 
 cask "cursor"
@@ -55,6 +54,8 @@ cask "flutter"
 cask "obs"
 cask "db-browser-for-sqlite"
 cask "canva"
+cask "chatgpt-atlas"
+cask "gcloud-cli"
 
 mas "Xcode", id: 497799835
 mas "line", id: 539883307
