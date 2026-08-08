@@ -58,7 +58,9 @@ eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 source "$HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 eval "$(starship init zsh)"
-source /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+export ASDF_DATA_DIR="$HOME/.asdf"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # minikube
 eval $(minikube -p minikube docker-env)
