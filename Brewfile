@@ -55,7 +55,6 @@ cask "flutter"
 cask "obs"
 cask "db-browser-for-sqlite"
 cask "canva"
-cask "chatgpt-atlas"
 cask "gcloud-cli"
 
 mas "Xcode", id: 497799835
